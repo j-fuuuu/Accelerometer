@@ -13,6 +13,10 @@
 		BA97E08D28C078910099394D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA97E08B28C078910099394D /* Main.storyboard */; };
 		BA97E08F28C078940099394D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA97E08E28C078940099394D /* Assets.xcassets */; };
 		BA97E09228C078940099394D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA97E09028C078940099394D /* LaunchScreen.storyboard */; };
+		BA97E09C28C078B80099394D /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = BA97E09A28C078B80099394D /* awa.png */; };
+		BA97E09D28C078B80099394D /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = BA97E09B28C078B80099394D /* suiheiki.png */; };
+		BA97E09F28C07A880099394D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97E09E28C07A880099394D /* GameViewController.swift */; };
+		BA97E0A128C07A9E0099394D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97E0A028C07A9E0099394D /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		BA97E08E28C078940099394D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA97E09128C078940099394D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA97E09328C078940099394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA97E09A28C078B80099394D /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		BA97E09B28C078B80099394D /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		BA97E09E28C07A880099394D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BA97E0A028C07A9E0099394D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		BA97E08428C078910099394D /* Accelerometer */ = {
 			isa = PBXGroup;
 			children = (
+				BA97E09928C078B80099394D /* 13_Resource */,
 				BA97E08528C078910099394D /* AppDelegate.swift */,
 				BA97E08728C078910099394D /* SceneDelegate.swift */,
 				BA97E08928C078910099394D /* ViewController.swift */,
@@ -63,8 +72,19 @@
 				BA97E08E28C078940099394D /* Assets.xcassets */,
 				BA97E09028C078940099394D /* LaunchScreen.storyboard */,
 				BA97E09328C078940099394D /* Info.plist */,
+				BA97E09E28C07A880099394D /* GameViewController.swift */,
+				BA97E0A028C07A9E0099394D /* ResultViewController.swift */,
 			);
 			path = Accelerometer;
+			sourceTree = "<group>";
+		};
+		BA97E09928C078B80099394D /* 13_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BA97E09A28C078B80099394D /* awa.png */,
+				BA97E09B28C078B80099394D /* suiheiki.png */,
+			);
+			path = 13_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +147,9 @@
 			files = (
 				BA97E09228C078940099394D /* LaunchScreen.storyboard in Resources */,
 				BA97E08F28C078940099394D /* Assets.xcassets in Resources */,
+				BA97E09D28C078B80099394D /* suiheiki.png in Resources */,
 				BA97E08D28C078910099394D /* Main.storyboard in Resources */,
+				BA97E09C28C078B80099394D /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA97E0A128C07A9E0099394D /* ResultViewController.swift in Sources */,
+				BA97E09F28C07A880099394D /* GameViewController.swift in Sources */,
 				BA97E08A28C078910099394D /* ViewController.swift in Sources */,
 				BA97E08628C078910099394D /* AppDelegate.swift in Sources */,
 				BA97E08828C078910099394D /* SceneDelegate.swift in Sources */,
